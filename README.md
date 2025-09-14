@@ -73,11 +73,3 @@ from adafruit_midi.control_change import ControlChange
 * `usb_midi.ports[1]` が環境によっては `ports[0]` になる場合があります
 * 複数のボタンやツマミを追加する場合は、GP27/GP28などADCピンを利用可能
 * CC番号を変更することで、ボリューム (CC7) やパン (CC10) などに割り当てもできます
-
----
-
-## Next Steps
-
-* ボタンやツマミを増やしてミニMIDIコントローラ化
-* エンコーダやタッチセンサーを追加
-* ケースや基板化で実用ハードに発展
